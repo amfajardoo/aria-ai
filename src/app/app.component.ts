@@ -5,9 +5,7 @@ import { RouterOutlet } from '@angular/router';
   selector: 'assis-root',
   standalone: true,
   imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  template: `<router-outlet />`,
+  styles: ``,
 })
-export class AppComponent {
-  title = 'aria-ai';
-}
+export class AppComponent {}
